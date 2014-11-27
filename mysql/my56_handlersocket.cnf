@@ -13,7 +13,7 @@ port                       = 3306
 socket                     = /var/lib/mysql/mysql.sock
 skip_external_locking
 key_buffer                 = 32M
-max_allowed_packet         = 16M
+max_allowed_packet         = 100M
 table_open_cache           = 256
 max_connections            = 1024
 max_connect_errors         = 10000
